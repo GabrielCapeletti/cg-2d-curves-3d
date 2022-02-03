@@ -1,0 +1,1 @@
+g++ `pkg-config --cflags gtk+-3.0` -o trabCG -std=c++11 spline.cpp main.cpp menu.cpp canvas.cpp window.cpp windowGUI.cpp point.cpp line.cpp curve.cpp polygon.cpp superSpline.cpp superBezier.cpp OBJLoader.cpp  `pkg-config --libs gtk+-3.0` && ./trabCG
